@@ -126,7 +126,7 @@ const loader = new FontLoader();
         // stats music yt converter
 const bottomloader = new FontLoader();
 
-				bottomloader.load( 'Stereofunk_Display.json', function ( font ) {
+				bottomloader.load( 'https://raw.githubusercontent.com/lukecrosser/LuosWorldRedesign/master/vite-project/Stereofunk_Display.json', function ( font ) {
           
 
 					const color = new THREE.Color( 0x00FF00 );
@@ -328,8 +328,8 @@ function addStar(){
 
 
 //moon 
-const moonTexture = new THREE.TextureLoader().load('moon.png')
-const normalTexture = new THREE.TextureLoader().load('normal.jpg')
+const moonTexture = new THREE.TextureLoader().load('https://raw.githubusercontent.com/lukecrosser/LuosWorldRedesign/master/vite-project/moon.png')
+const normalTexture = new THREE.TextureLoader().load('https://raw.githubusercontent.com/lukecrosser/LuosWorldRedesign/master/vite-project/normal.jpg')
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3,32,32),
   new THREE.MeshStandardMaterial({
