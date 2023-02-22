@@ -41,7 +41,7 @@ composer.addPass( effect2 );
 
 //load font text
 const loader = new FontLoader();
-				loader.load( 'Stereofunk_Display.json', function ( font ) {
+				loader.load( 'https://raw.githubusercontent.com/lukecrosser/LuosWorldRedesign/master/vite-project/Stereofunk_Display.json', function ( font ) {
 
 					const color = new THREE.Color( 0x00FF00 );
 
